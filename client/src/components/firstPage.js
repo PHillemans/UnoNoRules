@@ -5,7 +5,7 @@ import LobbyScreen from './lobbyScreen'
 
 function Firstpage(props) {
   return (
-      <div class='container'>
+      <div className='container'>
         {/* hier moet een component met een header */}
         header --->>> create lobby
 
