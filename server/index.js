@@ -1,6 +1,6 @@
 const express = require('express')
 
-let iets = require('./api/iets')
+const iets = require('./api/iets')
 
 const app = express()
 
@@ -11,7 +11,7 @@ app.use((req, res, next) => {
     next();
 });
 
-const port = precess.env.port || 5000;
+const port = process.env.port || 5000;
 
 //template api path
 app.use('/api/iets', iets)
